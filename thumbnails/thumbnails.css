@@ -1,0 +1,54 @@
+html, body, ul, li, div, a, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+
+a.nav {
+  font-size: 30px;
+  width: 5%;
+  position: absolute;
+/*  display: block;*/
+  top: 50%;
+  transform: translateY(-50%);
+}
+a.right {
+  right: -1%;
+}
+
+div.gutter {
+  position: relative;
+}
+
+div.thumbnails {
+  display: block;
+  width: 400px;
+
+  margin: auto;
+}
+div.gutter-images {
+/*  background: black;*/
+  width: 90%;
+  left: 5%;
+  position: relative;
+}
+
+div.gutter-images > img {
+  width: 20%;
+  height: 50px;
+  display: block;
+  float: left;
+}
+
+div.clearfix {
+  content: "";
+  display: block;
+  clear:both;
+}
+
+div.active > img {
+  width: 100%;
+  display: block;
+  height: 280px;
+}

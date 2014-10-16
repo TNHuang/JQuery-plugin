@@ -1,0 +1,53 @@
+html, body, div, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  color: inherit;
+}
+
+div.carousel {
+  position: relative;
+  display: block;
+  height: 400px;
+  width: 600px;
+/*  border: 2px solid black;*/
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  background: black;
+}
+
+img {
+  height: 400px;
+  width: 600px;
+}
+
+div.items {
+
+  height: 100%;
+  width: 100%;
+  display: block;
+
+}
+
+div.items > img {
+  display: none;
+  left: 0%;
+  position: absolute;
+  transition: left 500ms;
+}
+
+div.items > img.active {
+  display: block;
+}
+
+div.items > img.right {
+  left: 100%;
+  display: block;
+}
+
+div.items > img.left {
+  left: -100%;
+  display: block;
+}

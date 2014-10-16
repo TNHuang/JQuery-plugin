@@ -1,0 +1,33 @@
+/*RESET*/
+
+body, div, h1, ul, li, html {
+  margin: 0;
+  padding: 0 ;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  list-style: none;
+}
+
+/*TABS*/
+
+.tabs > li > a.active {
+  font-weight: bold;
+}
+
+div.tab-pane {
+  display: none;
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+div.tab-pane.active {
+  display: block;
+  opacity: 1;
+}
+
+div.tab-pane.transitioning {
+  display: block;
+  opacity: 0;
+
+}

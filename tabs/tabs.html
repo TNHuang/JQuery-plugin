@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="./jquery-1.11.1.min.js"></script>
+    <script src="./tabs.js"></script>
+    <link href="./tabs.css" rel="stylesheet" type="text/css">
+    <title>My Cool Website</title>
+  </head>
+
+  <body>
+
+  <ul class="tabs" data-content-tabs="content-tabs">
+
+    <li>
+      <a href="#corgi" class="active">Corgi</a>
+    </li>
+    <li>
+      <a href="#shiba">Shiba</a>
+    </li>
+    <li>
+      <a href="#yorkie">Yorkie</a>
+    </li>
+    <li>
+      <a href="#pitbull">Pitbull</a>
+    </li>
+
+  </ul>
+
+  <div id="content-tabs">
+
+    <div class="tab-pane active" id="corgi">
+      <p>The Cardigan Welsh Corgi equals big personality in a little dog. These are intelligent, active, alert little guys who will want to be the center of your world. They love to be with their families, and will shower you with loyalty, devotion and affection. They need daily exercise and love to take long walks with you. They are intelligent and eager to please and do great with obedience training. They excel in obedience, agility, flyball, Frisbee, herding, and tracking competitions.</p>
+    </div>
+
+    <div class="tab-pane" id="shiba">
+      <p>The Shiba Inu is a unique breed. Intelligent, active, energetic, they think pretty highly of themselves. They are famous for their spirited boldness and independent nature. If you are not careful, they will train you. Early obedience training is important, but even then, Shibas don't really enjoy being obedient. Off leash work is especially challenging and the recall might require a miracle. They love to run and they love to run away. They are escape artists and owners must be careful every single time they open a door because they will bolt. Some can even climb chain link fences. </p>
+    </div>
+
+    <div class="tab-pane" id="yorkie">
+      <p>The Yorkshire Terrier is feisty, alert, inquisitive, energetic, determined, brave, bossy, scrappy and boisterous. But he can also be very sweet. He can be described as a little dog with a big personality! He's one of the most popular breeds in the Unite States. He craves close physical contact and affection and will follow you around the home like a shadow. His prey-drive is high and he will chase any little creature that scurries by him. He gets along well with strangers but he can be aggressive with other dogs. He's very affectionate and loves to cuddle and sit on your lap.</p>
+    </div>
+
+    <div class="tab-pane" id="pitbull">
+      <p>Armando Christian Pérez (born January 15, 1981), better known by his stage name Pitbull, is an American rapper and Latin Grammy winning artist from Miami, Florida. He has released seven albums and one EP. His first recorded mainstream performance was on a solo track from Lil Jon's 2002 album Kings of Crunk, which featured Pitbull rapping over Jon's production. In 2004, Pitbull released his debut album titled M.I.A.M.I. (short for Money Is A Major Issue), under TVT Records; the album included production from high-profile producers Lil Jon and Jim Jonsin. Pitbull later released his second album El Mariel, in 2006 and his third, The Boatlift, in 2007.[4] In 2009, his fourth album Rebelution, spawned the hit single "I Know You Want Me (Calle Ocho)".</p>
+    </div>
+
+  </div>
+
+    <script>
+    $(function () {
+      $('.tabs').tabs();
+    })
+    </script>
+  </body>
+
+
+</html>
